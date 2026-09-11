@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ドローダウンは、金額ではなく期間で出ます</title>
+<meta name="description" content="「いくら儲かるか」より「どこまで沈むのを我慢する必要があるか」。バックテストをやるのは、ここを先に知るためだと言ってもいいくらいです。">
+<link rel="canonical" href="https://n225kensho.com/drawdown/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ドローダウンは、金額ではなく期間で出ます">
+<meta property="og:description" content="「いくら儲かるか」より「どこまで沈むのを我慢する必要があるか」。バックテストをやるのは、ここを先に知るためだと言ってもいいくらいです。">
+<meta property="og:url" content="https://n225kensho.com/drawdown/">
+<meta property="og:site_name" content="日経225先物の検証ノート">
+<meta property="og:image" content="https://n225kensho.com/img/drawdown.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a href="../"><div class="t">日経225先物の検証ノート</div>
+<div class="s">売買ルールを、組んで、検証する</div></a></header>
+<main>
+<h1>ドローダウンは、金額ではなく期間で出ます</h1>
+<p class="sub">いちばん見るべき数字</p>
+<div class="hook">「いくら儲かるか」より「どこまで沈むのを我慢する必要があるか」。
+バックテストをやるのは、ここを先に知るためだと言ってもいいくらいです。</div>
+<table><thead><tr><th></th><th>落ち込み</th><th>期間</th></tr></thead><tbody><tr><td>1番目</td><td>-19.8万円</td><td>2021/03/26 〜 2021/09/21（約6か月）</td></tr><tr><td>2番目</td><td>-18.2万円</td><td>2024/08/20 〜 2025/03/12（約7か月）</td></tr><tr><td>3番目</td><td>-7.2万円</td><td>2023/09/13 〜 2023/10/27（約1か月半）</td></tr></tbody></table>
+<p>最大ドローダウンとは、**累積の損益が高値を付けてから、次に高値を更新するまでの間の、
+いちばん低い地点までの落ち込み**です。</p>
+<p>よくある誤解が1つあります。<strong>1回の取引の最大損失額ではありません。</strong>
+5連敗したら、その5回をまとめて1本として数えます。だから金額だけでなく、
+<strong>期間</strong>で表示されます。ここが重要です。</p>
+<p>実際に回した結果を出します。5年で利益は71.5万円でした。
+そのいちばん大きな落ち込みが、下の数字です。</p>
+<p>6か月かけて19.8万円沈んでいます。しかも2番目も18.2万円で、7か月かかっています。
+<strong>5年のうち1年以上は、高値を更新できずに沈んでいた</strong>ことになります。</p>
+<p>もっと言うと、この戦略は<strong>2021年の1年間、ずっとマイナス圏にいました</strong>。
+1月に始めた人は、1年待ってもプラスになっていません。</p>
+<p>最終的には71.5万円のプラスです。数字の上では、通過点にすぎません。
+しかし、その6か月を実際に過ごせるかというと、たいていの人は止めます。
+<strong>止めた時点で、その後のプラスは手に入りません。</strong></p>
+<p>だから見るべきは「最大いくら」ではなく「何か月耐えることになるか」です。
+そして2番目・3番目まで見ておくと、それが一度きりの事故なのか、
+何度も起きることなのかが分かります。</p>
+<div class="cta"><b>ASTAT225 は14日間、無料で試せます</b><p>オートレ225で組んだ売買ルールを、過去データに当てて確かめる道具です。カードの登録も申し込みも要りません。<br><a href="https://exclusive-glider-0cb.notion.site/ASTAT225-32beaa6474c080e3a47bee90a12ded91">ダウンロードと使い方はこちら</a></p></div>
+<div class="note">※日経225ミニ1枚・2021〜2025・計算足30分。手数料・スリッページは含みません。</div>
+<div class="note">※バックテストの結果は過去データに基づくシミュレーションであり、将来の成績を保証するものではありません。投資の勧誘や助言を目的とするものではありません。</div>
+</main>
+<footer>
+<p>日経225先物の検証ノート｜売買ルールを、組んで、検証する</p>
+<p>※本サイトは投資の勧誘や助言を目的とするものではありません。</p>
+</footer>
+</body>
+</html>
