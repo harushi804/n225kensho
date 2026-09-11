@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://n225kensho.com/sitemap.xml

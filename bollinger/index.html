@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ボリンジャーバンドとは何か</title>
+<meta name="description" content="移動平均線に、上下の帯を付けたものです。帯の幅は、値動きの散らばり方で決まります。荒れると広がり、静かになると狭まります。">
+<link rel="canonical" href="https://n225kensho.com/bollinger/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ボリンジャーバンドとは何か">
+<meta property="og:description" content="移動平均線に、上下の帯を付けたものです。帯の幅は、値動きの散らばり方で決まります。荒れると広がり、静かになると狭まります。">
+<meta property="og:url" content="https://n225kensho.com/bollinger/">
+<meta property="og:site_name" content="日経225先物の検証ノート">
+<meta property="og:image" content="https://n225kensho.com/img/bollinger.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a href="../"><div class="t">日経225先物の検証ノート</div>
+<div class="s">売買ルールを、組んで、検証する</div></a></header>
+<main>
+<h1>ボリンジャーバンドとは何か</h1>
+<p class="sub">平均からの「散らばり」を見る</p>
+<div class="hook">移動平均線に、上下の帯を付けたものです。
+帯の幅は、値動きの散らばり方で決まります。荒れると広がり、静かになると狭まります。</div>
+<table><thead><tr><th></th><th>中身</th></tr></thead><tbody><tr><td>中心線</td><td>移動平均線そのもの</td></tr><tr><td>+2σ / −2σ</td><td>散らばり2つぶんの幅。荒れると広がる</td></tr><tr><td>帯の幅</td><td>狭い＝静か、広い＝荒れている。動き出しの合図に使える</td></tr></tbody></table>
+<p>真ん中の線は移動平均線そのものです。
+その上下に、標準偏差という「散らばりの大きさ」を足し引きした線を引きます。
+1つぶんが±1σ、2つぶんが±2σ。よく使われるのは±2σです。</p>
+<p>帯の意味は「だいたいこの範囲に収まっていた」ということです。
+だから帯が広いときは荒れていて、狭いときは静かだった、と読めます。</p>
+<p>条件の作り方は2通りあります。<strong>そして、その2つは正反対です。</strong></p>
+<p>1つめは逆張り。−2σまで下がったら買う。行き過ぎたから戻る、という考え方です。
+2つめは順張り。+2σを超えたら買う。抜けたから走る、という考え方です。</p>
+<p>同じ指標で、まったく逆のルールが作れます。
+どちらが正しいかは決まっていません。<strong>相場の性格によって、どちらも正解になります。</strong></p>
+<p>もう1つ、幅そのものを条件にする使い方があります。
+帯が狭くなっている間は動いていない。そこから広がり始めたら動き出した、と読む。
+これはDMIのADXと似た使い方です。向きではなく、動いているかどうかを見ています。</p>
+<p>順張りか逆張りか、幅を使うか。<strong>選ぶ前に、両方回して数えてみてください。</strong>
+1周10分です。考えるより早く答えが出ます。</p>
+<div class="cta"><b>ASTAT225 は14日間、無料で試せます</b><p>オートレ225で組んだ売買ルールを、過去データに当てて確かめる道具です。カードの登録も申し込みも要りません。<br><a href="https://exclusive-glider-0cb.notion.site/ASTAT225-32beaa6474c080e3a47bee90a12ded91">ダウンロードと使い方はこちら</a></p></div>
+<div class="note">※投資の勧誘や助言を目的とするものではありません。</div>
+</main>
+<footer>
+<p>日経225先物の検証ノート｜売買ルールを、組んで、検証する</p>
+<p>※本サイトは投資の勧誘や助言を目的とするものではありません。</p>
+</footer>
+</body>
+</html>

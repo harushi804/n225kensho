@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>移動平均線とは何か</title>
+<meta name="description" content="移動平均線は、直近◯本の終値を平均して、その点を結んだだけの線です。それ以上のものではありません。難しいのは線ではなく、条件への翻訳の方です。">
+<link rel="canonical" href="https://n225kensho.com/sma/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="移動平均線とは何か">
+<meta property="og:description" content="移動平均線は、直近◯本の終値を平均して、その点を結んだだけの線です。それ以上のものではありません。難しいのは線ではなく、条件への翻訳の方です。">
+<meta property="og:url" content="https://n225kensho.com/sma/">
+<meta property="og:site_name" content="日経225先物の検証ノート">
+<meta property="og:image" content="https://n225kensho.com/img/sma.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a href="../"><div class="t">日経225先物の検証ノート</div>
+<div class="s">売買ルールを、組んで、検証する</div></a></header>
+<main>
+<h1>移動平均線とは何か</h1>
+<p class="sub">平均を、線にしただけ</p>
+<div class="hook">移動平均線は、直近◯本の終値を平均して、その点を結んだだけの線です。
+それ以上のものではありません。難しいのは線ではなく、条件への翻訳の方です。</div>
+<table><thead><tr><th></th><th>中身</th></tr></thead><tbody><tr><td>短い線</td><td>直近◯本の終値の平均。早く動く</td></tr><tr><td>長い線</td><td>もっと長い期間の平均。ゆっくり動く</td></tr><tr><td>ゴールデンクロス</td><td>短い線が長い線を下から上へ抜けた瞬間</td></tr><tr><td>デッドクロス</td><td>短い線が長い線を上から下へ抜けた瞬間</td></tr></tbody></table>
+<p>25本の移動平均線なら、直近25本の終値の平均。次の足になれば、
+いちばん古い1本が抜けて、新しい1本が入る。だから「移動」平均です。</p>
+<p>何が分かるのか。<strong>向きと、位置関係</strong>です。
+上を向いていれば、この25本の間では上がってきた。短い線が長い線より上にあれば、
+最近の平均が、もっと長い期間の平均を上回っている。それだけの話です。</p>
+<p>ここからが本題です。これをどう条件にするか。</p>
+<p>いちばん使われるのがゴールデンクロスです。短い線が長い線を下から上に抜けること。
+注意すべきは、<strong>「上にある」ではなく「抜けた」</strong>という点です。
+ずっと上にいる状態を条件にすると、毎日が買いシグナルになってしまいます。</p>
+<p>だから条件は2本になります。1本前は下だった。今は上にある。
+この2つが同時に成り立つ日だけが、抜けた瞬間です。</p>
+<p>本数の組み合わせに正解はありません。5と25、25と100、どれもよく使われます。
+短くすれば早く反応して、その分だまされます。長くすれば確かになって、その分遅れます。
+<strong>どちらが良いかは、過去に当てて数えるまで分かりません。</strong></p>
+<div class="cta"><b>ASTAT225 は14日間、無料で試せます</b><p>オートレ225で組んだ売買ルールを、過去データに当てて確かめる道具です。カードの登録も申し込みも要りません。<br><a href="https://exclusive-glider-0cb.notion.site/ASTAT225-32beaa6474c080e3a47bee90a12ded91">ダウンロードと使い方はこちら</a></p></div>
+<div class="note">※投資の勧誘や助言を目的とするものではありません。</div>
+</main>
+<footer>
+<p>日経225先物の検証ノート｜売買ルールを、組んで、検証する</p>
+<p>※本サイトは投資の勧誘や助言を目的とするものではありません。</p>
+</footer>
+</body>
+</html>

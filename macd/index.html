@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MACDとは何か</title>
+<meta name="description" content="移動平均線が「平均そのもの」を見るのに対して、MACDは2本の平均の差を見ます。差が広がっているのか、縮んでいるのか。それだけです。">
+<link rel="canonical" href="https://n225kensho.com/macd/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MACDとは何か">
+<meta property="og:description" content="移動平均線が「平均そのもの」を見るのに対して、MACDは2本の平均の差を見ます。差が広がっているのか、縮んでいるのか。それだけです。">
+<meta property="og:url" content="https://n225kensho.com/macd/">
+<meta property="og:site_name" content="日経225先物の検証ノート">
+<meta property="og:image" content="https://n225kensho.com/img/macd.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a href="../"><div class="t">日経225先物の検証ノート</div>
+<div class="s">売買ルールを、組んで、検証する</div></a></header>
+<main>
+<h1>MACDとは何か</h1>
+<p class="sub">2本の平均の「差」を見る</p>
+<div class="hook">移動平均線が「平均そのもの」を見るのに対して、MACDは<strong>2本の平均の差</strong>を見ます。
+差が広がっているのか、縮んでいるのか。それだけです。</div>
+<table><thead><tr><th></th><th>中身</th></tr></thead><tbody><tr><td>MACD線</td><td>短い平均 − 長い平均。差そのもの</td></tr><tr><td>シグナル線</td><td>MACD線を平均した線。遅れて動く</td></tr><tr><td>クロス</td><td>MACD線がシグナル線を抜けた瞬間。買い／売りの合図に使う</td></tr></tbody></table>
+<p>短い平均から長い平均を引きます。その値がMACD線です。
+短い方が上にあればプラス、下にあれば マイナス。差が開くほど値が大きくなります。</p>
+<p>なぜ差を見るのか。<strong>動きの勢いが出るから</strong>です。
+移動平均線そのものは、上がっていても勢いが落ちていることが分かりません。
+差なら分かります。まだプラスでも、縮み始めていれば勢いは落ちています。</p>
+<p>MACD線をさらに平均したものがシグナル線です。MACD線より遅れて動きます。
+そして、この2本のクロスを条件にします。</p>
+<p>MACD線がシグナル線を下から上に抜けたら買い。上から下に抜けたら売り。
+<strong>形は移動平均線のゴールデンクロスと同じ</strong>です。「1本前は下、今は上」。
+覚えることは増えていません。見ている中身が違うだけです。</p>
+<p>注意が1つあります。MACDは差なので、<strong>相場が横ばいのときに何度もクロスします</strong>。
+そのたびに売買すると、往復の損だけが積み上がります。
+だからフィルタを足す人が多い。ただし足しすぎると、今度は過去に合わせすぎになります。</p>
+<p>その線引きも、結局は回して数えるしかありません。</p>
+<div class="cta"><b>ASTAT225 は14日間、無料で試せます</b><p>オートレ225で組んだ売買ルールを、過去データに当てて確かめる道具です。カードの登録も申し込みも要りません。<br><a href="https://exclusive-glider-0cb.notion.site/ASTAT225-32beaa6474c080e3a47bee90a12ded91">ダウンロードと使い方はこちら</a></p></div>
+<div class="note">※投資の勧誘や助言を目的とするものではありません。</div>
+</main>
+<footer>
+<p>日経225先物の検証ノート｜売買ルールを、組んで、検証する</p>
+<p>※本サイトは投資の勧誘や助言を目的とするものではありません。</p>
+</footer>
+</body>
+</html>

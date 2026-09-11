@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ストキャスティクスとは何か</title>
+<meta name="description" content="ここまでの3つは「平均」を使っていました。ストキャスティクスは違います。直近◯本の高値と安値の間で、いまどのあたりにいるかを、0〜100で表します。">
+<link rel="canonical" href="https://n225kensho.com/stochastics/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ストキャスティクスとは何か">
+<meta property="og:description" content="ここまでの3つは「平均」を使っていました。ストキャスティクスは違います。直近◯本の高値と安値の間で、いまどのあたりにいるかを、0〜100で表します。">
+<meta property="og:url" content="https://n225kensho.com/stochastics/">
+<meta property="og:site_name" content="日経225先物の検証ノート">
+<meta property="og:image" content="https://n225kensho.com/img/stochastics.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a href="../"><div class="t">日経225先物の検証ノート</div>
+<div class="s">売買ルールを、組んで、検証する</div></a></header>
+<main>
+<h1>ストキャスティクスとは何か</h1>
+<p class="sub">直近の値幅の、どこにいるか</p>
+<div class="hook">ここまでの3つは「平均」を使っていました。ストキャスティクスは違います。
+<strong>直近◯本の高値と安値の間で、いまどのあたりにいるか</strong>を、0〜100で表します。</div>
+<table><thead><tr><th></th><th>中身</th></tr></thead><tbody><tr><td>%K</td><td>直近の高値〜安値の間で、いまどこにいるか（0〜100）</td></tr><tr><td>%D</td><td>%Kをならした線</td></tr><tr><td>スロー%D</td><td>%Dをさらにならした線。いちばん滑らか</td></tr><tr><td>20 / 80</td><td>売られすぎ・買われすぎの目安としてよく使われる水準</td></tr></tbody></table>
+<p>直近の最高値を100、最安値を0とします。いまの終値がその間のどこにあるか。
+それが%Kです。100に近ければ高値圏、0に近ければ安値圏にいる、ということです。</p>
+<p>%Kをならしたものが%D。さらにならしたものがスロー%Dです。
+細かい上下を消して、形を見やすくするためのものです。</p>
+<p>条件の作り方は2通りあります。</p>
+<p>1つはクロス。%Kが%Dを下から上に抜けたら買い。<strong>形はこれまでと同じ</strong>です。</p>
+<p>もう1つが、この指標の特徴です。<strong>水準を条件にできます。</strong>
+20を下回ったら売られすぎ、80を超えたら買われすぎ、という使い方。
+「20を下回っていた状態から、20を上に抜けたら買う」といった書き方ができます。</p>
+<p>ただし、ここに落とし穴があります。
+<strong>買われすぎでも、上がり続けることがあります。</strong>
+強い相場では%Kが80以上に貼り付いたまま何日も進みます。
+そこで逆張りすると、上がり続ける相場に売り向かうことになります。</p>
+<p>だから「売られすぎたら買う」という単純な形は、相場の性格によって
+結果が大きく変わります。**どちらの性格の相場が多かったかは、
+過去に当てれば数字で出ます。**</p>
+<div class="cta"><b>ASTAT225 は14日間、無料で試せます</b><p>オートレ225で組んだ売買ルールを、過去データに当てて確かめる道具です。カードの登録も申し込みも要りません。<br><a href="https://exclusive-glider-0cb.notion.site/ASTAT225-32beaa6474c080e3a47bee90a12ded91">ダウンロードと使い方はこちら</a></p></div>
+<div class="note">※投資の勧誘や助言を目的とするものではありません。</div>
+</main>
+<footer>
+<p>日経225先物の検証ノート｜売買ルールを、組んで、検証する</p>
+<p>※本サイトは投資の勧誘や助言を目的とするものではありません。</p>
+</footer>
+</body>
+</html>
